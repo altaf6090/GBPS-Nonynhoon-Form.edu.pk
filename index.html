@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <section class="hero is-primary is-bold">
+      <div class="hero-body" style="background-image: url(download.jpg);">
+        <div class="container">
+          <h1 class="title">GBPS NOONYNHOON STUDENT FORM </h1>
+        </div>
+      </div>
+    </section>
+    
+      <form id="form" class="row g-3" method="POST">
+        <div class="col-md-6">
+          <label for="inputName" class="form-label">Name</label>
+          <input type="text" class="form-control" id="inputEmail4"  name="Name">
+        </div>
+        <div class="col-md-6">
+          <label for="inputName" class="form-label">Father'Name</label>
+          <input type="text" class="form-control" id="inputEmail4"  name="F'Name">
+        </div>
+        <div class="col-md-6">
+          <label for="inputSurname" class="form-label">Surname</label>
+          <input type="text" class="form-control" id="inputSurname"  name="Surname">
+        </div>
+        
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4"  name="Email">
+        </div>
+
+        <div class="col-md-6">
+          <label for="inputDOB" class="form-label">Date of Birth</label>
+          <input type="date" class="form-control" id="DOB" placeholder="DOB" name="DOB">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Address postal</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="Main Addres"  name="AdPostal">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Address as per dommicile </label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="Main Addres"  name="Adomicle">
+        </div>
+        <div class="col-12">
+          <label for="inputnumber" class="form-label">Phone Number</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="03000000000" name="PhNo">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">City & Taluka </label>
+          <input type="text" class="form-control" id="inputCity" name="City">
+        </div>
+        <div class="col-md-4">
+          <label for="inputCountry" class="form-label">Country</label>
+          <select id="inputCountry" class="form-select" name="Country">
+            <option selected >Choose...</option>
+            <option>...</option>
+            <option>Pakistan</option> 
+            <option>Afghvanistan </option> 
+            <option>India</option> 
+            <option>US </option> 
+            <option>America</option> 
+            
+          </select>
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">State</label>
+          <select id="inputState" class="form-select" name="state">
+            <option selected >Choose...</option>
+            <option>...</option>
+            <option>Sindh</option> 
+            <option>Balochistan</option> 
+            <option>KPK</option> 
+            <option>Punjab</option> 
+            
+          </select>
+        </div>
+        <div class="field">
+          <label class="label">District</label>
+          <div class="control">
+            <label class="radio">
+              <input type="radio" name="District" value="Umerkot" /> Umerkot
+            </label>
+            <label class="radio">
+              <input type="radio" name="District" value="Mithi" /> Mithi
+            </label>
+            <label class="radio">
+              <input type="radio" name="District" value="Tharparkar" /> Tharparkar
+            </label>
+            <label class="radio">
+              <input type="radio" name="District" value="Mirpurkhas" /> Mirpurkhas
+            </label>
+            <label class="radio">
+              <input type="radio" name="District" value="Salamkot" /> Ialamkot
+            </label>
+          </div>
+        </div>
+        
+        <div class="col-md-4">
+          <label for="inputUc" class="form-label">UC </label>
+          <select id="inputUc" class="form-select" name="UC ">
+            <option selected >Choose...</option>
+            <option>...</option>
+            <option>BUSTAN UC</option> 
+            <option>MIAN SHAH  UC</option> 
+            <option>DADHRO UC</option> 
+            <option>KUNRI MEMON UC</option> 
+            <option>NABISAR ROAD UC</option> 
+            <option>SHER KHAN CHANDIO UC</option> 
+            <option>TALHI UC</option> 
+            <option>PITHORO UC</option> 
+            <option>SHAH MARDAN SHAH UC</option> 
+            <option>ARORO BHURGRI UC</option> 
+            <option>PADHRIO UC</option> 
+            <option>SAMARO ROAD UC</option> 
+            <option>SAMARO UC</option> 
+            <option>SATARYOON UC</option> 
+            <option>GHARIABANAD UC</option> 
+            <option>ATTA MOHAMMAD PALI UC</option>
+              <option>CHHORE UC</option> 
+            <option>DHORONARO UC</option> 
+            <option>FAQIR ABDULLAH UC</option> 
+            <option>GAPNO UC</option> 
+            <option>KAPLORE UC</option> 
+            <option>KHARORO SYED UC</option> 
+            <option>KHEJRARI UC</option> 
+            <option>KHOKHARPAR UC</option> 
+            <option>SABHO UC</option> 
+
+
+            </select>
+        </div>
+        <div class="col-md-4">
+          <label for="inputGender" class="form-label">Gender</label>
+          <select id="inputGender" class="form-select" name="Gender">
+            <option selected >Choose...</option>
+            <option>...</option>
+            <option>Male</option> 
+            <option>Female</option> 
+            <option>Other</option> 
+           
+            
+          </select>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck" name="ADMI/HIGHER" placeholder="yes" value="Pass Out">
+                        <label class="form-check-label" for="gridCheck">
+             Pass Out
+            </label>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck" name="ADMI/HIGHER" placeholder="yes" value="Graduted">
+                            <label class="form-check-label" for="gridCheck">
+                  Graduted
+                </label>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck" name="ADMI/HIGHER" placeholder="yes" value="Newly Addmission">
+                        <label class="form-check-label" for="gridCheck">
+              New Addmission
+            </label>
+          
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck" name="ADMI/HIGHER" placeholder="No" value="Apply Higher Class">
+            <label class="form-check-label" for="gridCheck">
+           Apply Higher Class
+    </label>          
+          </div>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="inputZip" name="ZIP">
+        </div>
+        <div class="col-md-2">
+          <label for="inputEducation" class="form-label">Educational</label>
+          <input type="text" class="form-control" id="inputEducation" name="Èducation">
+        </div>
+
+        <div class="col-md-2">
+          <label for="inputfees" class="form-label">Fess</label>
+          <input type="text" class="form-control" id="inputfees" placeholder="500" name="Fee">
+        </div>
+
+        
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck" name="Check" value="Yes">
+            <label class="form-check-label" for="gridCheck">
+              Check me out
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary" id="submit-button" style="margin-top: 30px;" >Submit Here</button>
+        </div>
+        <div class="control" style="margin-left: 580px; margin-top: -30px;">
+          <button class="button is-danger">Cancel</button>
+        </div>
+      </form>
+    
+
+      
+    <div
+      id="message"
+      style="
+        display: none;
+        margin: 20px;
+        font-weight: bold;
+        color: green;
+        padding: 8px;
+        background-color: beige;
+        border-radius: 4px;
+        border-color: aquamarine;
+      "
+    ></div>
+
+    <script>
+      document.getElementById("form").addEventListener("submit", function (e) {
+        e.preventDefault(); // Prevent the default form submission
+        document.getElementById("message").textContent = "Submitting..";
+        document.getElementById("message").style.display = "block";
+        document.getElementById("submit-button").disabled = true;
+
+        // Collect the form data
+        var formData = new FormData(this);
+        var keyValuePairs = [];
+        for (var pair of formData.entries()) {
+          keyValuePairs.push(pair[0] + "=" + pair[1]);
+        }
+
+        var formDataString = keyValuePairs.join("&");
+
+        // Send a POST request to your Google Apps Script
+        fetch(
+          "https://script.google.com/macros/s/AKfycbwfsLQxh6RcxwV5BreRgmUlkbIalcogM0dfMK3MIa03Zr1jc6xV9xMAAsAKfdPlapuS/exec",
+          {
+            redirect: "follow",
+            method: "POST",
+            body: formDataString,
+            headers: {
+              "Content-Type": "text/plain;charset=utf-8",
+            },
+          }
+        )
+          .then(function (response) {
+            // Check if the request was successful
+            if (response) {
+              return response; // Assuming your script returns JSON response
+            } else {
+              throw new Error("Failed to submit the form.");
+            }
+          })
+          .then(function (data) {
+            // Display a success message
+            document.getElementById("message").textContent =
+              "Data submitted successfully!";
+            document.getElementById("message").style.display = "block";
+            document.getElementById("message").style.backgroundColor = "green";
+            document.getElementById("message").style.color = "beige";
+            document.getElementById("submit-button").disabled = false;
+            document.getElementById("form").reset();
+
+            setTimeout(function () {
+              document.getElementById("message").textContent = "";
+              document.getElementById("message").style.display = "none";
+            }, 2600);
+          })
+          .catch(function (error) {
+            // Handle errors, you can display an error message here
+            console.error(error);
+            document.getElementById("message").textContent =
+              "An error occurred while submitting the form.";
+            document.getElementById("message").style.display = "block";
+          });
+      });
+    </script>
+  </body>
+</html>
